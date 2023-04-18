@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo Arrays</title>
     <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="cabeçalho">
@@ -13,18 +14,19 @@
     </header>
 
     <div class="container">
-        <aside class="1-e">
+        <aside class="l-e">
             <span>B-E</span>
         </aside>
-    <section class="central">
-        <span>CONTEUDO</span>
-    </section>
-    <aside class="1-d">
-        <span>B-D</span>
-    </aside>
+        <section class="central">
+            <span>CONTEUDO</span>
+        </section>
+        <aside class="l-d">
+            <span>B-D</span>
+        </aside>
     </div>
     <footer class="rodape">
         <span>RODAPÉ</span>
+        <button value="10" onclick="console.log(`Resultado ${soma(this.value,10,5)}`)">CLICK</button>
     </footer>
 </body>
 </html>
