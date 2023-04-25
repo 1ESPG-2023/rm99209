@@ -1,26 +1,30 @@
-.cabeçalho{
+.cabecalho{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 20vh;
-    background-color: teal;
+    background-color: blue;
     color: #fff;
 }
 
-.container {
+.container{
     display: flex;
     justify-content: space-between;
-    height: 60vh;
+    width: 100vw;
+    height: 126vh;
     background-color: blueviolet;
 }
 
+.container .central{
+    flex-grow: 5;
+}
 .container .l-e{
     flex-grow: 1;
     background-color: brown;
 }
-
 .container .l-d{
     flex-grow: 1;
     background-color: coral;
 }
+
