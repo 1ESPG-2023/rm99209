@@ -1,4 +1,5 @@
  
+
 // // for (let index = 0; index < liElement.length ; index++) {
 // //     console.log(liElement[index].textContent)
 // // }
@@ -140,8 +141,8 @@ function mudaCor() {
 //     }else{
 //         imgLampada.src = "./img/pic_bulboff.gif"
 //         botao.textContent = "LIGAR";
-//     }
-// }
+//      }
+//  }
 
 const inputUser = document.querySelector("input[name='nmUser']");
 const labelUser = document.querySelector("label[for]");
